@@ -1,0 +1,28 @@
+.homeContainer {
+    display: flex;
+    flex-flow: column;
+    height: 888px;
+    background: url(../assets/homeBg.svg);
+}
+
+.titleHome {
+    margin: auto;
+    margin-bottom: 5%;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 48px;
+    color: #FFFFFF;
+}
+
+.textHome {
+    margin: auto;
+    margin-inline: 19%;
+    margin-top: 5%;
+    height: 315px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 48px;
+    color: #FFFFFF;
+}

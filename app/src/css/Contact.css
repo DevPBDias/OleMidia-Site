@@ -1,0 +1,85 @@
+.contactContainer {
+    display: flex;
+    flex-flow: column;
+    height: 755px;
+    background: #260A00;
+    gap: 20px;
+}
+
+.titleContact {
+    margin: auto;
+    margin-top: 70px;
+    margin-bottom: 0;
+    width: 363px;
+    height: 67px;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 48px;
+    text-align: center;
+    color: #EBE4DE;
+    text-transform: uppercase;
+}
+
+.inputContact {
+    margin-inline: 12%;
+    width: 1126px;
+    height: 53px;
+    text-align: left;
+    background: #EBE4DE;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    color: #260A00;
+    padding-left: 20px;
+}
+
+.inputContact::placeholder {
+    height: 25px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    color: #260A00;
+    opacity: 0.5;
+    padding-inline: 20px;
+}
+
+.textAreaContact {
+    margin-inline: 12%;
+    width: 1126px;
+    height: 196px;
+    background: #EBE4DE;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: left;
+    color: #260A00;
+    padding: 20px;
+}
+
+.textAreaContact::placeholder {
+    height: 25px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    color: #260A00;
+    opacity: 0.5;
+    padding-left: 20px;
+}
+
+.contactBtn {
+    margin: auto;
+    margin-block: 20px;
+    width: 247px;
+    height: 53px;
+    background: #FF6224;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    color: #260A00;
+}

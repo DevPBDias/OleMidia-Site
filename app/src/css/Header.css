@@ -1,0 +1,42 @@
+.header {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    justify-items: center;
+    align-items: center;
+    height: 192px;
+    background: #FF6224;
+}
+
+.headerLinks {
+    display: flex;
+    flex: row;
+    gap: 40px;
+    text-transform: uppercase;
+}
+
+.oleHeader {
+    width: 91px;
+    height: 65px;
+}
+
+.navbarLinks {
+    display: flex;
+    flex: row;
+    justify-content: space-between;
+    justify-items: center;
+    align-items: center;
+    margin-top: 25px;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 25px;
+    gap: 30px;
+}
+
+.headerIcons {
+    display: flex;
+    flex: row;
+    height: 38px;
+    gap: 10px;
+}

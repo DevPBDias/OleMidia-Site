@@ -1,0 +1,42 @@
+.serviceContainter {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.serviceOneContainer {
+    display: flex;
+    flex-flow: row;
+}
+
+.serviceOne {
+    width: 750px;
+}
+
+.textContainerOne {
+    display: flex;
+    flex-flow: column;
+}
+
+.serviceTitleOne {
+    margin: auto;
+    margin-left: 10%;
+    margin-bottom: 5%;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 48px;
+    text-align: left;
+    color: #260A00;
+}
+
+.serviceTextOne {
+    margin: auto;
+    margin-inline: 10%;
+    margin-top: 0;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 48px;
+    text-align: left;
+    color: #260A00;
+}

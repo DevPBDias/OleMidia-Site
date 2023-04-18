@@ -1,0 +1,17 @@
+.portfolioContainer {
+    margin: 0;
+}
+
+.divImg {
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.posterImg {
+    width: 375px;
+    height: 469px;
+}
+
+.posterImg:hover {
+    scale: 2;
+}
