@@ -11,7 +11,7 @@ import '../css/Portfolio.css';
 
 function Portfolio() {
   return (
-    <section id="skills" className="portfolioContainer">
+    <section id="portfolio" className="portfolioContainer">
       <div className="divImg">
         <img alt="posterOne" src={ posterOne } className="posterImg" />
         <img alt="posterTwo" src={ posterTwo } className="posterImg" />

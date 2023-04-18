@@ -6,7 +6,7 @@ import '../css/Services.css';
 
 function Services() {
   return (
-    <section id="about" className="serviceContainter">
+    <section id="services" className="serviceContainter">
       <div className="serviceOneContainer">
         <img alt="management" src={ suport } className="serviceOne" />
         <div className="textContainerOne">

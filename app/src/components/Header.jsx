@@ -11,7 +11,7 @@ function Header() {
         <nav className="navbarLinks">
           <a href="#home">Home</a>
           <a href="#services">Serviços</a>
-          <a href="#portolio">Portfólio</a>
+          <a href="#portfolio">Portfólio</a>
           <a href="#contact">Contato</a>
         </nav>
       </div>

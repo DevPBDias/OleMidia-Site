@@ -71,6 +71,11 @@
     padding-left: 20px;
 }
 
+.alert {
+    margin-inline: 12%;
+    width: 1126px;
+}
+
 .contactBtn {
     margin: auto;
     margin-block: 20px;
