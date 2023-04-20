@@ -1,0 +1,76 @@
+.serviceContainter {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.serviceOneContainer {
+    display: flex;
+    flex-flow: row;
+}
+
+.serviceOne, .serviceTwo, .serviceThree {
+    width: 49.5vw;
+}
+
+.textContainerOne {
+    display: flex;
+    flex-flow: column;
+}
+
+.serviceTitleOne {
+    margin: auto;
+    margin-left: 10%;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 3.57vw;
+    line-height: 3.57vw;
+    text-align: left;
+    color: #260A00;
+}
+
+.serviceTextOne {
+    margin: auto;
+    margin-inline: 10%;
+    margin-top: 0;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2.38vw;
+    line-height: 3.57vw;
+    text-align: left;
+    color: #260A00;
+}
+
+@media screen and (min-width: 320px) and (max-width: 414px) {
+    .serviceContainter {
+        display: block;
+    }
+
+    .serviceOneContainer {
+        display: flex;
+        flex-flow: column wrap;
+    }
+
+    .serviceOne, .serviceTwo, .serviceThree {
+        width: 100vw;
+    }
+    
+
+    .serviceOne {
+        order: 1;
+    }
+
+    .textContainerOne {
+        padding: 15px;
+        order: -1;
+    }
+
+    .serviceTitleOne {
+        font-size: 32px;
+        line-height: 32px;
+    }
+
+    .serviceTextOne {
+        font-size: 20px;
+        line-height: 20px;
+    }
+}

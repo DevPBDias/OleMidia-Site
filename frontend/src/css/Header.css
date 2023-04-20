@@ -1,0 +1,90 @@
+.header {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    justify-items: center;
+    align-items: center;
+    height: 152px;
+    background: #FF6224;
+}
+
+.headerLinks {
+    display: flex;
+    flex: row;
+    gap: 40px;
+    text-transform: uppercase;
+}
+
+.oleHeader {
+    width: 100%;
+    height: 100%;
+}
+
+.navbarLinks {
+    display: flex;
+    flex: row;
+    justify-content: space-between;
+    justify-items: center;
+    align-items: center;
+    margin-top: 25px;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 1.538vw;
+    line-height: 1.859vw;
+    gap: 30px;
+}
+
+.headerIcons {
+    display: flex;
+    flex: row;
+    gap: 10px;
+    margin-top: 3%;
+}
+
+.instagramIcon {
+    width: 2.825vw;
+}
+
+@media screen and (min-width: 320px) and (max-width: 414px) {
+    .header {
+        display: flex;
+        flex-flow: column wrap;
+        justify-items: center;
+        align-items: center;
+        height: fit-content;
+        padding: 10px;
+    }
+
+    .headerLinks {
+       display: block;
+    }
+
+    .oleHeader {
+        width: 60px;
+        height: 60px;
+        position: absolute;
+        top: 0;
+        left: 10px;
+    }
+
+    .navbarLinks {
+        display: flex;
+        flex-flow: column;
+        font-size: 20px;
+        margin-top: 5px;
+        line-height: 20px;
+    }
+
+    .headerIcons {
+        display: flex;
+        flex: row;
+        padding-top: 20px;
+        height: 3.8rem;
+    }
+
+    .instagramIcon {
+        width: 30px;
+        height: 30px;
+    }
+}

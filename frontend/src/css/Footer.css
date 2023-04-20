@@ -1,0 +1,19 @@
+.footer {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-items: center;
+    height: 192px;
+    background: #FF6224;
+}
+
+.footerOle {
+    margin: auto;
+}
+
+.footerText {
+    font-size: 12px;
+    line-height: 25px;
+    color: #260A00;
+    margin-bottom: 10px;
+}
