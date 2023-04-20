@@ -1,36 +1,38 @@
 .contactContainer {
     display: flex;
-    flex-flow: column;
+    flex-flow: column wrap;
+    width: 100%;
     height: 755px;
     background: #260A00;
     gap: 20px;
+    margin: auto;
 }
 
 .titleContact {
     margin: auto;
     margin-top: 70px;
     margin-bottom: 0;
-    width: 363px;
-    height: 67px;
+    width: 100%;
     font-style: normal;
     font-weight: 800;
-    font-size: 48px;
-    line-height: 48px;
+    font-size: 3.57vw;
+    line-height: 3.57vw;
     text-align: center;
     color: #EBE4DE;
     text-transform: uppercase;
 }
 
 .inputContact {
+    margin: auto;
     margin-inline: 12%;
-    width: 1126px;
+    width: 75%;
     height: 53px;
     text-align: left;
     background: #EBE4DE;
     font-style: normal;
     font-weight: 700;
-    font-size: 18px;
-    line-height: 25px;
+    font-size: 1.859vw;
+    line-height: 1.859vw;
     color: #260A00;
     padding-left: 20px;
 }
@@ -39,8 +41,8 @@
     height: 25px;
     font-style: normal;
     font-weight: 700;
-    font-size: 18px;
-    line-height: 25px;
+    font-size: 1.338vw;
+    line-height: 1.859vw;
     color: #260A00;
     opacity: 0.5;
     padding-inline: 20px;
@@ -48,13 +50,13 @@
 
 .textAreaContact {
     margin-inline: 12%;
-    width: 1126px;
+    width: 75%;
     height: 196px;
     background: #EBE4DE;
     font-style: normal;
     font-weight: 700;
-    font-size: 18px;
-    line-height: 25px;
+    font-size: 1.338vw;
+    line-height: 1.859vw;
     text-align: left;
     color: #260A00;
     padding: 20px;
@@ -64,8 +66,8 @@
     height: 25px;
     font-style: normal;
     font-weight: 700;
-    font-size: 18px;
-    line-height: 25px;
+    font-size: 1.338vw;
+    line-height: 1.859vw;
     color: #260A00;
     opacity: 0.5;
     padding-left: 20px;
@@ -73,7 +75,7 @@
 
 .alert {
     margin-inline: 12%;
-    width: 1126px;
+    width: 100%;
 }
 
 .contactBtn {
@@ -84,7 +86,59 @@
     background: #FF6224;
     font-style: normal;
     font-weight: 700;
-    font-size: 18px;
-    line-height: 25px;
+    font-size: 1.338vw;
+    line-height: 1.859vw;
     color: #260A00;
+}
+
+@media screen and (min-width: 320px) and (max-width: 414px) {
+    .contactContainer {
+        height: fit-content;
+    }
+    
+    .titleContact {
+        font-size: 32px;
+        line-height: 32px;
+    }
+    
+    .inputContact {
+        width: 280px;
+        font-size: 0.892vw;
+        line-height: 20px;
+        height: 40px;
+        padding-left: 0px;
+        margin: auto;
+    }
+    
+    .inputContact::placeholder {
+        font-size: 12px;
+        line-height: 20px;
+    }
+    
+    .textAreaContact {
+        width: 280px;
+        font-size: 12px;
+        line-height: 20px;
+        padding-left: 0px;
+        margin: auto;
+    }
+    
+    .textAreaContact::placeholder {
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    
+    .alert {
+        width: 280px;
+        font-size: 12px;
+        line-height: 20px;
+    }
+    
+    .contactBtn {
+        width: 280px;
+        font-size: 12px;
+        line-height: 20px;
+        height: 32px;
+    }
 }

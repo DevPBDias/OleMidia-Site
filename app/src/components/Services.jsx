@@ -25,10 +25,10 @@ function Services() {
             gerando mais interação e descobertas do público em geral.
           </p>
         </div>
-        <img alt="management" src={ design } className="serviceOne" />
+        <img alt="management" src={ design } className="serviceTwo" />
       </div>
       <div className="serviceOneContainer">
-        <img alt="management" src={ marketing } className="serviceOne" />
+        <img alt="management" src={ marketing } className="serviceThree" />
         <div className="textContainerOne">
           <h3 className="serviceTitleOne">MARKETING</h3>
           <p className="serviceTextOne">

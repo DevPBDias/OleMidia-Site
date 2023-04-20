@@ -5,6 +5,7 @@ import About from '../components/About';
 import Services from '../components/Services';
 import Portfolio from '../components/Portfolio';
 import Contact from '../components/Contact';
+import BackHeaderBtn from '../components/BackHeaderBtn';
 
 function Home() {
   return (
@@ -14,6 +15,7 @@ function Home() {
       <Services />
       <Portfolio />
       <Contact />
+      <BackHeaderBtn />
       <Footer />
     </div>
   );

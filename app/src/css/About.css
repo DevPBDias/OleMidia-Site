@@ -1,8 +1,10 @@
 .homeContainer {
     display: flex;
     flex-flow: column;
-    height: 888px;
+    width: 100%;
+    height: 81.7vh;
     background: url(../assets/homeBg.svg);
+    padding: 20px;
 }
 
 .titleHome {
@@ -10,8 +12,8 @@
     margin-bottom: 5%;
     font-style: normal;
     font-weight: 800;
-    font-size: 48px;
-    line-height: 48px;
+    font-size: 3.57vw;
+    line-height: 3.57vw;
     color: #FFFFFF;
 }
 
@@ -19,10 +21,25 @@
     margin: auto;
     margin-inline: 19%;
     margin-top: 5%;
-    height: 315px;
     font-style: normal;
     font-weight: 600;
-    font-size: 32px;
-    line-height: 48px;
+    font-size: 2.38vw;
+    line-height: 3.57vw;
     color: #FFFFFF;
+}
+
+@media screen and (min-width: 320px) and (max-width: 414px) {
+    .homeContainer {
+        height: 600px;
+    }
+
+    .titleHome {
+        font-size: 32px;
+        line-height: 32px;
+    }
+
+    .textHome {
+        font-size: 20px;
+        line-height: 24px;
+    }
 }

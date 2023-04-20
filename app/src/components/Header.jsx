@@ -5,7 +5,7 @@ import '../css/Header.css';
 
 function Header() {
   return (
-    <header className="header">
+    <header id="header" className="header">
       <div className="headerLinks">
         <img alt="oleHeader" src={ logo } className="oleHeader" />
         <nav className="navbarLinks">
@@ -19,7 +19,7 @@ function Header() {
         <a href="https://www.instagram.com/olemidia/">
           <img alt="instagram" src={ instagramIcon } className="instagramIcon" />
         </a>
-        <a href="https://www.instagram.com/olemidia/">
+        <a href="https://twitter.com/olemidia">
           <img alt="instagram" src={ instagramIcon } className="instagramIcon" />
         </a>
       </div>

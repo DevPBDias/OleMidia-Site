@@ -1,16 +1,12 @@
 .portfolioContainer {
-    margin: 0;
-}
-
-.divImg {
     display: flex;
-    flex-flow: row nowrap;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
 }
 
 .posterImg {
-    width: 336px;
-}
-
-.posterImg:hover {
-    scale: 2;
+    width: 300px;
+    margin: 10px;
+    border: 1px solid black;
 }
