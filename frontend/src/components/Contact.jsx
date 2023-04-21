@@ -108,7 +108,7 @@ function Contact() {
           type="submit"
           className="contactBtn"
         >
-          ENVIAR MENSAGEM
+          ENVIAR
         </button>
       </form>
     </section>
