@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from '../assets/headerOle.svg';
 import instagramIcon from '../assets/instagramIcon.svg';
+import twitterIcon from '../assets/twitterLogo.svg';
 import '../css/Header.css';
 
 function Header() {
@@ -20,7 +21,7 @@ function Header() {
           <img alt="instagram" src={ instagramIcon } className="instagramIcon" />
         </a>
         <a href="https://twitter.com/olemidia">
-          <img alt="instagram" src={ instagramIcon } className="instagramIcon" />
+          <img alt="instagram" src={ twitterIcon } className="instagramIcon" />
         </a>
       </div>
     </header>
