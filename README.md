@@ -1,6 +1,10 @@
 ## OleMidia-Site
 
-Site da Olé Mídia em que apresenta a empresa e seus serviços. É possível enviar emails a empresa.
+- Site da Olé Mídia em que apresenta uma breve história da empresa e seus serviços. 
+- É possível enviar emails a empresa.
+- Possui responsividade.
+
+Visite o site <a href="https://www.olemidia.com.br">aqui</a>.
 
 ## Stacks utilizadas para o desenvolvimento do projeto:
 <div>
